@@ -13,7 +13,7 @@ const Contact = () => {
   return (
     <div className={classes.wrapper}>
       <Helmet>
-        <title>Josh Lee and the Family | Contact</title>
+        <title>Nicky Wood Music | Contact</title>
         <meta
           name="description"
           content="Contact form to get in contact with Joan Fort regarding any Inquiries."

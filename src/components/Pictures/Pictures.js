@@ -13,7 +13,7 @@ const Pictures = () => {
   return (
     <div>
       <Helmet>
-        <title>Josh Lee and the Family | Pictures</title>
+        <title>Nicky Wood Music| Pictures</title>
         <meta name="description" content="Pictures" />
         <link rel="canonical" href="/pictures" />
       </Helmet>

@@ -35,10 +35,10 @@ const Bio = () => {
   return (
     <div>
       <Helmet>
-        <title>Josh Lee and the Family | Biography</title>
+        <title>Nicky Wood Website | Biography</title>
         <meta
           name="description"
-          content="Josh Lee and the Extended Family is a Philadelphia based ensemble that authentically celebrates the music and the dance of the swing era."
+          content="Nick Wood Website. New York City based music produce, mixing, mastering, and recording engineer."
         />
         <link rel="canonical" href="/bio" />
       </Helmet>

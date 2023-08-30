@@ -1,4 +1,4 @@
-# josh-lee-and-family-website
+# nate-wood-website
 
 </br>
 <p align="center">
@@ -47,8 +47,8 @@ As a professional musician I want to view a slick, mobile first musician website
 
 ## Links
 
-- Netlify demo site link: (https://www.joshleeandthefamily.com)
-- Github Repository URL: (https://github.com/CliffordMorin/josh-lee-and-family-website)
+- Netlify demo site link: (https://www.nickywoodmusic.com)
+- Github Repository URL: (https://github.com/CliffordMorin/nate-wood-website)
 
 ## Technologies Used
 

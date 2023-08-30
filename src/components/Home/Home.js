@@ -48,7 +48,7 @@ const Home = () => {
       maxWidth={isSmallScreen ? "sm" : "xl"}
     >
       <Helmet>
-        <title>Josh Lee and the Family | Home</title>
+        <title>Nicky Wood Music | Home</title>
         <meta name="description" content="Home Page" />
         <link rel="canonical" href="/" />
       </Helmet>

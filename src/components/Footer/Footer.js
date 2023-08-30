@@ -22,7 +22,7 @@ const Footer = () => {
           >
             <Box mb={1} pt={2}>
               <a
-                href="https://www.instagram.com/joshleeandthefamily/"
+                href="https://www.instagram.com/nickywoodmusic/"
                 target="_blank"
                 rel="noreferrer"
                 style={{ color: "#ffffff" }}
@@ -34,7 +34,7 @@ const Footer = () => {
                 />
               </a>
 
-              <a
+              {/* <a
                 href="https://www.youtube.com/channel/UCp3ZsagJAUM_T1O_OAEGBbA"
                 target="_blank"
                 rel="noreferrer"
@@ -44,9 +44,9 @@ const Footer = () => {
                   fontSize="large"
                   style={{ margin: "5px 10px" }}
                 />
-              </a>
+              </a> */}
 
-              <a
+              {/* <a
                 href="https://www.facebook.com/groups/1676540489272052/user/1468826780/"
                 target="_blank"
                 rel="noreferrer"
@@ -56,7 +56,7 @@ const Footer = () => {
                   fontSize="large"
                   style={{ margin: "5px 10px" }}
                 />
-              </a>
+              </a> */}
 
               {/* <a
                 href="https://open.spotify.com/artist/6UI1WZGepDltj9s5RU2HHJ?si=y4clMkNyQzWF26l9DoqSCA"

@@ -10,6 +10,7 @@ import Pictures from "./components/Pictures/Pictures";
 import EPK from "./components/EPK/EPK";
 // import Calendar from "./components/Calendar/Calendar";
 import CalendarV2 from "./components/Calendar/CalendarV2";
+import BetaHome from "./components/BetaHome/BetaHome";
 // import BandsInTownCalender from "./components/Calendar/BandsInTownCalendar";
 import Nav from "./components/Nav/Nav";
 import Footer from "./components/Footer/Footer";
@@ -25,16 +26,17 @@ function App() {
         <CssBaseline />
         <Nav />
         <Routes>
-          <Route path="/" element={<Home />} />
+          {/* <Route path="/" element={<Home />} />
           <Route path="/bio" element={<Bio />} />
           <Route path="/discography" element={<Discography />} />
           <Route path="/contact" element={<Contact />} />
           <Route path="/videos" element={<Videos />} />
           <Route path="/pictures" element={<Pictures />} />
           <Route path="/epk" element={<EPK />} />
-          <Route path="/calendar" element={<CalendarV2 />} />
+          <Route path="/calendar" element={<CalendarV2 />} /> */}
           {/* <Route path="/calendar" element={<BandsInTownCalendar />} /> */}
           {/* <Route path="/calendar" element={<Calendar />} /> */}
+          <Route path="/" element={<BetaHome />} />
           <Route path="*" element={<Page404 />} />
         </Routes>
         <Footer />

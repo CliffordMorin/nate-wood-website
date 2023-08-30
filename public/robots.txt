@@ -1,4 +1,4 @@
 # https://www.robotstxt.org/robotstxt.html
 User-agent: *
 Disallow: 
-Sitemap: http://www.joshleeandthefamily.com/sitemap.xml
+Sitemap: http://www.nickywoodmusic.com/sitemap.xml
