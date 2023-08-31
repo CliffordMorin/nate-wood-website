@@ -22,12 +22,6 @@ const navLinksDesktop = [
       //   id: uuidv4(),
       //   icon: TbVinyl,
       // },
-      {
-        page: "THE FAMILY",
-        link: "https://drive.google.com/file/d/11-YSXUvYmNAdqN3qBWu6vbRvMazxmzcn/view",
-        id: uuidv4(),
-        icon: HiUserGroup,
-      },
     ],
   },
   {
@@ -42,12 +36,12 @@ const navLinksDesktop = [
         id: uuidv4(),
         icon: AiFillPicture,
       },
-      {
-        page: "RECORDINGS",
-        link: "https://drive.google.com/drive/folders/19uEMozTc4QDnKB9N3b7fM50tOVZCFBqF",
-        id: uuidv4(),
-        icon: ImHeadphones,
-      },
+      // {
+      //   page: "RECORDINGS",
+      //   link: "https://drive.google.com/drive/folders/19uEMozTc4QDnKB9N3b7fM50tOVZCFBqF",
+      //   id: uuidv4(),
+      //   icon: ImHeadphones,
+      // },
     ],
   },
   { page: "SHOWS", link: "/calendar", id: uuidv4(), icon: BsCalendarEventFill },

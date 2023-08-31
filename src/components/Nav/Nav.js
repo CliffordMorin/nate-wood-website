@@ -47,7 +47,7 @@ const Nav = () => {
                   display: { xs: "none", md: "flex" },
                 }}
               >
-                <img src={Logo} alt="logo" style={{ height: "6.5rem" }} />
+                <img src={Logo} alt="logo" style={{ height: "7.5rem" }} />
               </Typography>
             </Link>
             <Link
@@ -73,7 +73,7 @@ const Nav = () => {
                 <img
                   src={Logo}
                   alt="logo"
-                  style={{ height: "4.5rem", margin: "0 auto" }}
+                  style={{ height: "5rem", margin: "0 auto" }}
                 />
               </Typography>
             </Link>

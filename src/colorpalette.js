@@ -4,7 +4,7 @@ const colorPalette = {
   cafeNoir: "#16203b",
   bgDark: "#040404",
   timberWolf: "#d6e5e3",
-  tiffanyBlue: "#083768",
+  tiffanyBlue: "#0A0A0A",
   textDark: "#E0E0E0",
   textLessDark: "#FFFFFF",
   textLight: "#d6e5e3",

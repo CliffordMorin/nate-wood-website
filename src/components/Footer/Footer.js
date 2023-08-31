@@ -2,7 +2,7 @@ import React from "react";
 import { Container, Box, Typography } from "@mui/material";
 import { YouTube, Facebook, Favorite } from "@mui/icons-material";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
-import { faInstagram } from "@fortawesome/free-brands-svg-icons";
+import { faInstagram, faSpotify } from "@fortawesome/free-brands-svg-icons";
 import makeStyles from "./styles";
 import "./style.css";
 
@@ -46,8 +46,8 @@ const Footer = () => {
                 />
               </a> */}
 
-              {/* <a
-                href="https://www.facebook.com/groups/1676540489272052/user/1468826780/"
+              <a
+                href="https://www.facebook.com/nickywoodmusic/"
                 target="_blank"
                 rel="noreferrer"
               >
@@ -56,10 +56,10 @@ const Footer = () => {
                   fontSize="large"
                   style={{ margin: "5px 10px" }}
                 />
-              </a> */}
+              </a>
 
-              {/* <a
-                href="https://open.spotify.com/artist/6UI1WZGepDltj9s5RU2HHJ?si=y4clMkNyQzWF26l9DoqSCA"
+              <a
+                href="https://open.spotify.com/artist/51d8KXjtm9iygw3jjwuw6x"
                 target="_blank"
                 rel="noreferrer"
               >
@@ -68,7 +68,7 @@ const Footer = () => {
                   className="fa-2x"
                   style={{ color: "#20DF64", margin: "10px 10px" }}
                 />
-              </a> */}
+              </a>
             </Box>
             <Box>
               <Typography
