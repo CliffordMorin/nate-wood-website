@@ -7,6 +7,7 @@ import {
   IconButton,
   Slide,
   Typography,
+  Avatar,
 } from "@mui/material";
 import CloseIcon from "@mui/icons-material/Close";
 import { TbVinyl } from "react-icons/tb";
@@ -18,6 +19,7 @@ import makeStyles from "./styles";
 import { Helmet } from "react-helmet-async";
 // import { ReactComponent as LogoLarge } from "../../images/logoLarge.svg";\
 import logo from "../../images/logo.svg";
+import nickywood5 from "../../images/nickywood5.jpeg";
 
 const BetaHome = () => {
   const theme = useTheme();
@@ -86,24 +88,50 @@ const BetaHome = () => {
         maxWidth={isSmallScreen ? "sm" : "lg"}
       >
         <Fade delay="100">
-          <Typography variant="h4" sx={{ color: theme.palette.text.light }}>
-            <GiGuitarHead size={50} color={theme.palette.secondary.main} />
-            GUITARIST
+          <Typography
+            variant="h4"
+            sx={{ color: theme.palette.text.black }}
+            className={classes.text}
+          >
+            <Avatar className={classes.avatar}>
+              <GiGuitarHead size={70} color={theme.palette.text.black} />
+            </Avatar>
+            <div className={classes.innerText}>GUITARIST</div>
           </Typography>
         </Fade>
         <Fade delay="150">
-          <Typography variant="h4" sx={{ color: theme.palette.text.light }}>
-            <TbVinyl size={50} color={theme.palette.secondary.main} />
-            MUSIC PRODUCTION
+          <Typography
+            variant="h4"
+            sx={{ color: theme.palette.text.black }}
+            className={classes.text}
+          >
+            <Avatar className={classes.avatar}>
+              <TbVinyl size={70} color={theme.palette.text.black} />
+            </Avatar>
+
+            <div className={classes.innerText}>MUSIC PRODUCTION</div>
           </Typography>
         </Fade>
         <Fade delay="200">
-          <Typography variant="h4" sx={{ color: theme.palette.text.light }}>
-            <RxMixerVertical size={50} color={theme.palette.secondary.main} />
-            SOUND ENGINEERING
+          <Typography
+            variant="h4"
+            sx={{ color: theme.palette.text.black }}
+            className={classes.text}
+          >
+            <Avatar alt="Nicky Wood" className={classes.avatar}>
+              <RxMixerVertical
+                size={70}
+                alt="mixing"
+                color={theme.palette.text.black}
+              />
+            </Avatar>
+            <div className={classes.innerText}>SOUND ENGINEERING</div>
           </Typography>
         </Fade>
       </Container>
+      {/* <Container maxWidth="xl">
+        <img src={nickywood5} alt="" className={classes.homeImg} />
+      </Container> */}
     </Container>
   );
 };
