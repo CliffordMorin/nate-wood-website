@@ -8,7 +8,7 @@ const colorPalette = {
   textDark: "#E0E0E0",
   textLessDark: "#FFFFFF",
   textLight: "#d6e5e3",
-  colorfulHover: "#0d4a8b",
+  colorfulHover: "#F23F08",
 };
 
 let fonts = {

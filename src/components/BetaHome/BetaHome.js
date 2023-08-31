@@ -9,6 +9,9 @@ import {
   Typography,
 } from "@mui/material";
 import CloseIcon from "@mui/icons-material/Close";
+import { TbVinyl } from "react-icons/tb";
+import { GiGuitarHead } from "react-icons/gi";
+import { RxMixerVertical } from "react-icons/rx";
 import useTheme from "@mui/material/styles/useTheme";
 import { Fade } from "react-awesome-reveal";
 import makeStyles from "./styles";
@@ -51,7 +54,7 @@ const BetaHome = () => {
         <meta name="description" content="Home Page" />
         <link rel="canonical" href="/" />
       </Helmet>
-      {/* <Snackbar
+      <Snackbar
         open={open}
         onClose={handleClose}
         TransitionComponent={TransitionDown}
@@ -73,46 +76,33 @@ const BetaHome = () => {
             </>
           }
         >
-          New album{" "}
-          <a
-            href="https://orcd.co/avvade9"
-            className={classes.link}
-            target="_blank"
-            rel="noreferrer"
-          >
-            "MASTER ST" by The Dam Jawn ft Dick Oatts
-          </a>{" "}
-          out now! Click to listen!{" "}
+          <Typography variant="h7" sx={{ fontWeight: "bold" }}>
+            Website Under Construction Coming Soon!
+          </Typography>
         </Alert>
-      </Snackbar> */}
+      </Snackbar>
       <Container
         className={classes.textContainer}
         maxWidth={isSmallScreen ? "sm" : "lg"}
       >
-        {/* <Fade delay="100">
-          <Typography variant="h5" sx={{ color: theme.palette.text.light }}>
-            Guitarist, Composer & Educator
+        <Fade delay="100">
+          <Typography variant="h4" sx={{ color: theme.palette.text.light }}>
+            <GiGuitarHead size={50} color={theme.palette.secondary.main} />
+            GUITARIST
           </Typography>
         </Fade>
-
-        <Divider className={classes.divider} />
-
-        <Fade delay="100">
-          <Typography
-            variant="h6"
-            sx={{ marginBottom: "20px", color: theme.palette.text.light }}
-          >
-            <a
-              href="https://orcd.co/avvade9"
-              className={classes.link}
-              target="_blank"
-              rel="noreferrer"
-            >
-              "THE DAM JAWN"
-            </a>{" "}
-            Out Now!
+        <Fade delay="150">
+          <Typography variant="h4" sx={{ color: theme.palette.text.light }}>
+            <TbVinyl size={50} color={theme.palette.secondary.main} />
+            MUSIC PRODUCTION
           </Typography>
-        </Fade> */}
+        </Fade>
+        <Fade delay="200">
+          <Typography variant="h4" sx={{ color: theme.palette.text.light }}>
+            <RxMixerVertical size={50} color={theme.palette.secondary.main} />
+            SOUND ENGINEERING
+          </Typography>
+        </Fade>
       </Container>
     </Container>
   );

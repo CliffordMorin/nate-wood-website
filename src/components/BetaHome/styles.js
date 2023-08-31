@@ -41,12 +41,13 @@ export default makeStyles((theme) => ({
       ml: 0,
     },
   },
+
   textContainer: {
     marginLeft: "0",
     width: "55%",
     position: "absolute",
-    top: "-50px",
-    left: "-40px",
+    top: "50px",
+    left: "40px",
     "& span": {
       fontSize: "3rem",
       fontWeight: "bold",
