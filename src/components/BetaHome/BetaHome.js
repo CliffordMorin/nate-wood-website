@@ -18,8 +18,8 @@ import { Fade } from "react-awesome-reveal";
 import makeStyles from "./styles";
 import { Helmet } from "react-helmet-async";
 // import { ReactComponent as LogoLarge } from "../../images/logoLarge.svg";\
-import logo from "../../images/logo.svg";
-import nickywood5 from "../../images/nickywood5.jpeg";
+// import logo from "../../images/logo.svg";
+// import nickywood5 from "../../images/nickywood5.jpeg";
 
 const BetaHome = () => {
   const theme = useTheme();
@@ -79,7 +79,8 @@ const BetaHome = () => {
           }
         >
           <Typography variant="h7" sx={{ fontWeight: "bold" }}>
-            Website Under Construction Coming Soon!
+            Website Under Construction Coming Soon! For Inquires Please Contact
+            nickywoodmusic@gmail.com
           </Typography>
         </Alert>
       </Snackbar>
