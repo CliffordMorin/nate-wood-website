@@ -16,7 +16,7 @@ import {
 
 import { Bounce } from "react-awesome-reveal";
 import makeStyles from "./styles";
-import bio from "../../images/bio.jpg";
+import nickywood1 from "../../images/nickywood1.jpeg";
 // import martin6small from "../../images/compressed/martin6small.jpg";
 import { LazyLoadImage } from "react-lazy-load-image-component";
 import "react-lazy-load-image-component/src/effects/blur.css";
@@ -38,7 +38,7 @@ const Bio = () => {
         <title>Nicky Wood Website | Biography</title>
         <meta
           name="description"
-          content="Nick Wood Website. New York City based music produce, mixing, mastering, and recording engineer."
+          content="Nick Wood Website. New York City based music producer, mixing, mastering, and recording engineer."
         />
         <link rel="canonical" href="/bio" />
       </Helmet>
@@ -49,7 +49,7 @@ const Bio = () => {
             align="center"
             pt={5}
             gutterBottom
-            sx={{ color: theme.palette.text.colorful }}
+            sx={{ color: theme.palette.text.light }}
           >
             <Bounce>
               {language === "en"
@@ -62,7 +62,7 @@ const Bio = () => {
           <Divider
             sx={{
               zIndex: "100",
-              backgroundColor: theme.palette.text.colorful,
+              backgroundColor: theme.palette.text.light,
               height: "2px",
               width: "100px",
               margin: "auto",
@@ -78,7 +78,7 @@ const Bio = () => {
             <Grid item xs={12} md={6}>
               <LazyLoadImage
                 className={classes.images}
-                src={bio}
+                src={nickywood1}
                 effect="blur"
                 alt="martin"
               />

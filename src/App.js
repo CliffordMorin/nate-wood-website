@@ -26,14 +26,14 @@ function App() {
         <CssBaseline />
         <Nav />
         <Routes>
-          {/* <Route path="/" element={<Home />} />
+          {/* <Route path="/" element={<Home />} /> */}
           <Route path="/bio" element={<Bio />} />
-          <Route path="/discography" element={<Discography />} />
-          <Route path="/contact" element={<Contact />} />
-          <Route path="/videos" element={<Videos />} />
-          <Route path="/pictures" element={<Pictures />} />
-          <Route path="/epk" element={<EPK />} />
-          <Route path="/calendar" element={<CalendarV2 />} /> */}
+          {/* <Route path="/discography" element={<Discography />} /> */}
+          {/* <Route path="/contact" element={<Contact />} /> */}
+          {/* <Route path="/videos" element={<Videos />} /> */}
+          {/* <Route path="/pictures" element={<Pictures />} /> */}
+          {/* <Route path="/epk" element={<EPK />} /> */}
+          {/* <Route path="/calendar" element={<CalendarV2 />} /> */}
           {/* <Route path="/calendar" element={<BandsInTownCalendar />} /> */}
           {/* <Route path="/calendar" element={<Calendar />} /> */}
           <Route path="/" element={<BetaHome />} />
