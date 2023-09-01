@@ -1,7 +1,11 @@
 import { FaHome, FaInfoCircle, FaVideo } from "react-icons/fa";
 import { TfiWrite } from "react-icons/tfi";
 import { TbVinyl } from "react-icons/tb";
-import { BsFillCameraFill, BsCalendarEventFill } from "react-icons/bs";
+import {
+  BsFillCameraFill,
+  BsCalendarEventFill,
+  BsFillBriefcaseFill,
+} from "react-icons/bs";
 import { AiFillPicture, AiFillMail } from "react-icons/ai";
 import { HiUserGroup } from "react-icons/hi";
 import { GrDocumentDownload } from "react-icons/gr";
@@ -44,7 +48,12 @@ const navLinksDesktop = [
       // },
     ],
   },
-  { page: "SHOWS", link: "/calendar", id: uuidv4(), icon: BsCalendarEventFill },
+  {
+    page: "PORTFOLIO",
+    link: "/calendar",
+    id: uuidv4(),
+    icon: BsFillBriefcaseFill,
+  },
   { page: "CONTACT", link: "/contact", id: uuidv4(), icon: AiFillMail },
 ];
 
