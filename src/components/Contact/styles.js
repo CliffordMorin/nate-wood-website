@@ -1,16 +1,16 @@
 import { makeStyles } from "@mui/styles";
-import contactPage from "../../images/contactPage.jpg";
+import nickywood2 from "../../images/nickywood2.jpeg";
 
 export default makeStyles((theme) => ({
   container: {
-    backgroundImage: `url(${contactPage})`,
+    backgroundImage: `url(${nickywood2})`,
     backgroundPosition: "center",
     backgroundSize: "cover",
     backgroundRepeat: "no-repeat",
     height: "100vh",
     paddingTop: theme.spacing(5),
     [theme.breakpoints.down("sm")]: {
-      backgroundImage: `url(${contactPage})`,
+      backgroundImage: `url(${nickywood2})`,
       backgroundPosition: "50%",
       paddingTop: theme.spacing(4),
     },
@@ -38,23 +38,23 @@ export default makeStyles((theme) => ({
   },
 
   inputStyle: {
-    color: theme.palette.text.colorful,
+    color: theme.palette.text.black,
     "& .MuiOutlinedInput-root": {
       "& fieldset": {
-        borderColor: theme.palette.text.colorfulHover, // set border color for active state
+        borderColor: theme.palette.text.black, // set border color for active state
       },
       "&:hover fieldset": {
-        borderColor: theme.palette.text.colorful, // set border color for hover state
+        borderColor: theme.palette.text.black, // set border color for hover state
       },
       "&.Mui-focused fieldset": {
-        borderColor: theme.palette.text.colorful, // set border color for focused state
+        borderColor: theme.palette.text.black, // set border color for focused state
       },
       "&.Mui-disabled .MuiOutlinedInput-notchedOutline": {
-        borderColor: theme.palette.text.colorful, // set border color for disabled state
+        borderColor: theme.palette.text.black, // set border color for disabled state
       },
     },
     "& .MuiFormLabel-root": {
-      color: theme.palette.text.colorfulHover, // set label color
+      color: theme.palette.text.black, // set label color
     },
   },
 }));

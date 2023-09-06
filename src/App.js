@@ -29,7 +29,7 @@ function App() {
           {/* <Route path="/" element={<Home />} /> */}
           <Route path="/bio" element={<Bio />} />
           {/* <Route path="/discography" element={<Discography />} /> */}
-          {/* <Route path="/contact" element={<Contact />} /> */}
+          <Route path="/contact" element={<Contact />} />
           {/* <Route path="/videos" element={<Videos />} /> */}
           {/* <Route path="/pictures" element={<Pictures />} /> */}
           {/* <Route path="/epk" element={<EPK />} /> */}
