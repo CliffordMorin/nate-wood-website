@@ -50,7 +50,7 @@ const navLinksDesktop = [
   },
   {
     page: "PORTFOLIO",
-    link: "/calendar",
+    link: "/portfolio",
     id: uuidv4(),
     icon: BsFillBriefcaseFill,
   },

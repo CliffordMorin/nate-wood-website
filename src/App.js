@@ -12,6 +12,7 @@ import EPK from "./components/EPK/EPK";
 import CalendarV2 from "./components/Calendar/CalendarV2";
 import BetaHome from "./components/BetaHome/BetaHome";
 // import BandsInTownCalender from "./components/Calendar/BandsInTownCalendar";
+import Portfolio from "./components/Portfolio/Portfolio";
 import Nav from "./components/Nav/Nav";
 import Footer from "./components/Footer/Footer";
 import Page404 from "./components/404/Page404";
@@ -36,6 +37,7 @@ function App() {
           {/* <Route path="/calendar" element={<CalendarV2 />} /> */}
           {/* <Route path="/calendar" element={<BandsInTownCalendar />} /> */}
           {/* <Route path="/calendar" element={<Calendar />} /> */}
+          <Route path="/portfolio" element={<Portfolio />} />
           <Route path="/" element={<BetaHome />} />
           <Route path="*" element={<Page404 />} />
         </Routes>
