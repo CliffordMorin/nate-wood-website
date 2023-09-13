@@ -52,6 +52,9 @@ const useStyles = makeStyles((theme) => ({
     backgroundRepeat: "no-repeat",
     backgroundAttachment: "fixed", // Optional: Fixed background
     minHeight: "100vh", // Ensures the background covers the entire viewport height
+    [theme.breakpoints.down("sm")]: {
+      backgroundPosition: "75%",
+    },
   },
 }));
 
