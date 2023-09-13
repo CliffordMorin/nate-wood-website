@@ -20,14 +20,14 @@ const Pictures = () => {
       <Typography
         align="center"
         variant="h2"
-        sx={{ pt: 5, pb: 2, color: theme.palette.text.colorful }}
+        sx={{ pt: 5, pb: 2, color: theme.palette.text.light }}
       >
         <Bounce>PICTURES</Bounce>
       </Typography>
       <Divider
         sx={{
           zIndex: "100",
-          backgroundColor: theme.palette.text.colorful,
+          backgroundColor: theme.palette.text.light,
           height: "2px",
           width: "100px",
           margin: "auto",

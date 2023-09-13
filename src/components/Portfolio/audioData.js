@@ -24,45 +24,45 @@ const audioData = {
       src: EddieGarridoMix,
     },
     {
-      title: "Sarah Elizabeth Charles - Learn To Love",
+      title: "Sarah Elizabeth Charles - Learn To Love - Mix",
       src: SarahElizabethCharles_LearnToLove,
     },
     // Add more audio files in the "mixing" category
   ],
-  original_music: [
+  originals: [
     {
-      title: "Danae Loop",
+      title: "Danae Loop - Nicky Wood",
       src: DanaeLoop,
     },
     {
-      title: "Nick Bond",
+      title: "Nick Bond - Nicky Wood",
       src: NickBond,
     },
     {
-      title: "Pages Film Score",
+      title: "Pages Film Score - Nicky Wood",
       src: PagesFilmScore,
     },
     {
-      title: "There's A Bluebird",
+      title: "There's A Bluebird - Nicky Wood",
       src: TheresABluebird,
     },
     // Add more audio files in the "recording" category
   ],
   recording: [
     {
-      title: "As You Like It",
+      title: "As You Like It - Recording Session",
       src: AsYouLikeIt,
     },
     {
-      title: "Aunaundrea",
+      title: "Aunaundrea - Recording Session",
       src: aunaundrea,
     },
     {
-      title: "Hurricane",
+      title: "Hurricane - Loud Mix 8123 NW 1",
       src: Hurricane_LoudMix_8123_NW_1,
     },
     {
-      title: "JChamp - One Dream",
+      title: "JChamp - One Dream - Recording Session",
       src: JChamp_OneDreamNWMix,
     },
     // Add more audio files in the "recording" category

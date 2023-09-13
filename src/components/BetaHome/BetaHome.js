@@ -9,6 +9,7 @@ import {
   Typography,
   Avatar,
 } from "@mui/material";
+import { Link } from "react-router-dom";
 import CloseIcon from "@mui/icons-material/Close";
 import { TbVinyl } from "react-icons/tb";
 import { GiGuitarHead } from "react-icons/gi";
@@ -25,21 +26,21 @@ const BetaHome = () => {
   const theme = useTheme();
   const isSmallScreen = useMediaQuery(theme.breakpoints.down("sm"));
   const classes = makeStyles();
-  const [open, setOpen] = useState(true);
+  // const [open, setOpen] = useState(true);
 
-  const TransitionDown = (props) => {
-    return <Slide {...props} direction="down" />;
-  };
-  const handleClose = (event, reason) => {
-    if (reason === "clickaway") {
-      return;
-    }
-    setOpen(false);
-  };
+  // const TransitionDown = (props) => {
+  //   return <Slide {...props} direction="down" />;
+  // };
+  // const handleClose = (event, reason) => {
+  //   if (reason === "clickaway") {
+  //     return;
+  //   }
+  //   setOpen(false);
+  // };
 
-  useEffect(() => {
-    setOpen(true);
-  }, []);
+  // useEffect(() => {
+  //   setOpen(true);
+  // }, []);
   return (
     <Container
       className={classes.container}
@@ -56,7 +57,7 @@ const BetaHome = () => {
         <meta name="description" content="Home Page" />
         <link rel="canonical" href="/" />
       </Helmet>
-      <Snackbar
+      {/* <Snackbar
         open={open}
         onClose={handleClose}
         TransitionComponent={TransitionDown}
@@ -83,51 +84,59 @@ const BetaHome = () => {
             nickywoodmusic@gmail.com
           </Typography>
         </Alert>
-      </Snackbar>
+      </Snackbar> */}
       <Container
         className={classes.textContainer}
         maxWidth={isSmallScreen ? "sm" : "lg"}
       >
         <Fade delay="100">
-          <Typography
-            variant="h4"
-            sx={{ color: theme.palette.text.black }}
-            className={classes.text}
-          >
-            <Avatar className={classes.avatar}>
-              <GiGuitarHead size={70} color={theme.palette.text.black} />
-            </Avatar>
-            <div className={classes.innerText}>GUITARIST</div>
-          </Typography>
+          <Link to="/portfolio" className={classes.link}>
+            <Typography
+              variant="h4"
+              sx={{ color: theme.palette.text.black }}
+              className={classes.text}
+            >
+              <Avatar className={classes.avatar}>
+                <GiGuitarHead size={70} color={theme.palette.text.black} />
+              </Avatar>
+              <div className={classes.innerText}>GUITARIST</div>
+            </Typography>
+          </Link>
         </Fade>
-        <Fade delay="150">
-          <Typography
-            variant="h4"
-            sx={{ color: theme.palette.text.black }}
-            className={classes.text}
-          >
-            <Avatar className={classes.avatar}>
-              <TbVinyl size={70} color={theme.palette.text.black} />
-            </Avatar>
 
-            <div className={classes.innerText}>MUSIC PRODUCTION</div>
-          </Typography>
+        <Fade delay="150">
+          <Link to="/portfolio" className={classes.link}>
+            <Typography
+              variant="h4"
+              sx={{ color: theme.palette.text.black }}
+              className={classes.text}
+            >
+              <Avatar className={classes.avatar}>
+                <TbVinyl size={70} color={theme.palette.text.black} />
+              </Avatar>
+
+              <div className={classes.innerText}>MUSIC PRODUCTION</div>
+            </Typography>
+          </Link>
         </Fade>
+
         <Fade delay="200">
-          <Typography
-            variant="h4"
-            sx={{ color: theme.palette.text.black }}
-            className={classes.text}
-          >
-            <Avatar alt="Nicky Wood" className={classes.avatar}>
-              <RxMixerVertical
-                size={70}
-                alt="mixing"
-                color={theme.palette.text.black}
-              />
-            </Avatar>
-            <div className={classes.innerText}>SOUND ENGINEERING</div>
-          </Typography>
+          <Link to="/portfolio" className={classes.link}>
+            <Typography
+              variant="h4"
+              sx={{ color: theme.palette.text.black }}
+              className={classes.text}
+            >
+              <Avatar alt="Nicky Wood" className={classes.avatar}>
+                <RxMixerVertical
+                  size={70}
+                  alt="mixing"
+                  color={theme.palette.text.black}
+                />
+              </Avatar>
+              <div className={classes.innerText}>SOUND ENGINEERING</div>
+            </Typography>
+          </Link>
         </Fade>
       </Container>
       {/* <Container maxWidth="xl">

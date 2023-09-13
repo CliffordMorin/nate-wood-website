@@ -32,7 +32,7 @@ function App() {
           {/* <Route path="/discography" element={<Discography />} /> */}
           <Route path="/contact" element={<Contact />} />
           {/* <Route path="/videos" element={<Videos />} /> */}
-          {/* <Route path="/pictures" element={<Pictures />} /> */}
+          <Route path="/pictures" element={<Pictures />} />
           {/* <Route path="/epk" element={<EPK />} /> */}
           {/* <Route path="/calendar" element={<CalendarV2 />} /> */}
           {/* <Route path="/calendar" element={<BandsInTownCalendar />} /> */}

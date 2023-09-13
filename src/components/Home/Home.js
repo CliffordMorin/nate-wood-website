@@ -93,30 +93,6 @@ const Home = () => {
         <Fade delay="50">
           <img src={homeLogo} alt="logo" className={classes.logo} />
         </Fade>
-        {/* <Fade delay="100">
-          <Typography variant="h5" sx={{ color: theme.palette.text.light }}>
-            Guitarist, Composer & Educator
-          </Typography>
-        </Fade>
-
-        <Divider className={classes.divider} />
-
-        <Fade delay="100">
-          <Typography
-            variant="h6"
-            sx={{ marginBottom: "20px", color: theme.palette.text.light }}
-          >
-            <a
-              href="https://orcd.co/avvade9"
-              className={classes.link}
-              target="_blank"
-              rel="noreferrer"
-            >
-              "THE DAM JAWN"
-            </a>{" "}
-            Out Now!
-          </Typography>
-        </Fade> */}
       </Container>
     </Container>
   );

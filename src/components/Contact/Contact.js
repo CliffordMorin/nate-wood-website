@@ -54,6 +54,18 @@ const Contact = () => {
                 mb: 3,
               }}
             />
+            <Typography
+              align="center"
+              variant="body1"
+              sx={{ color: theme.palette.text.primary, mb: 4 }}
+            >
+              I am dedicated to delivering exceptional audio production services
+              encompassing recording, sound engineering, and mixing.With a
+              commitment to precision, creativity, and an unwavering dedication
+              to sonic excellence, I am your partner in achieving audio
+              perfection. Let's collaborate to transform your artistic vision
+              into a powerful and unforgettable auditory experience.
+            </Typography>
             <ContactForm />
           </Paper>
         </div>

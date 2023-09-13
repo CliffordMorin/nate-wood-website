@@ -61,6 +61,14 @@ export default makeStyles((theme) => ({
   text: {
     fontSize: "1.2rem", // Adjusted font size for better fit
     fontWeight: "bold",
+
+    margin: theme.spacing(2),
+    cursor: "pointer",
+    transition: "transform 0.2s, opacity 0.2s",
+    "&:hover, &:active": {
+      transform: "scale(1.1)",
+      opacity: 0.8,
+    },
     [theme.breakpoints.down("sm")]: {
       width: "100%",
       textAlign: "center",
