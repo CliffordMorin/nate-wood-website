@@ -62,7 +62,7 @@ const Portfolio = () => {
   const classes = useStyles();
   const theme = useTheme();
 
-  const [selectedCategory, setSelectedCategory] = useState("all");
+  const [selectedCategory, setSelectedCategory] = useState("mixing");
 
   const handleCategoryChange = (event) => {
     setSelectedCategory(event.target.value);
