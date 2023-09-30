@@ -10,8 +10,13 @@ import nickywood9 from "../../images/nickywood9.jpg";
 import nickywood10 from "../../images/nickywood10.jpg";
 import nickywood11 from "../../images/nickywood11.jpg";
 import nickywood12 from "../../images/nickywood12.jpg";
+import nickywood13 from "../../images/nickywood13.JPG";
 
 const images = [
+  {
+    original: nickywood13,
+    thumbnail: nickywood13,
+  },
   {
     original: nickywood3,
     thumbnail: nickywood3,
