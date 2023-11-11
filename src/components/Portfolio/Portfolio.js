@@ -14,7 +14,7 @@ import { makeStyles } from "@mui/styles";
 import useTheme from "@mui/material/styles/useTheme";
 import { Bounce } from "react-awesome-reveal";
 import audioData from "./audioData";
-import backgroundImg from "../../images//nickywood12.jpg";
+import backgroundImg from "../../images/nickyProduction.jpeg";
 
 const useStyles = makeStyles((theme) => ({
   header: {
@@ -50,7 +50,7 @@ const useStyles = makeStyles((theme) => ({
     backgroundImage: `url(${backgroundImg})`,
     backgroundSize: "cover",
     backgroundRepeat: "no-repeat",
-    backgroundAttachment: "fixed", // Optional: Fixed background
+    backgroundPosition: "10%",
     minHeight: "100vh", // Ensures the background covers the entire viewport height
     [theme.breakpoints.down("sm")]: {
       backgroundPosition: "75%",
@@ -96,9 +96,12 @@ const Portfolio = () => {
           }}
         />
         <Typography variant="body1">
-          Your gateway to exceptional audio production services.
+          Nicky Wood productions! Beats presented are available for sale and
+          lease.
         </Typography>
-        <Typography variant="body1">Checkout some of my work below.</Typography>
+        <Typography variant="body1">
+          All Spotify links contain original production as well.
+        </Typography>
       </Box>
 
       {/* Professional Statement
