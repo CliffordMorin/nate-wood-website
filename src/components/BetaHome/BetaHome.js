@@ -90,7 +90,7 @@ const BetaHome = () => {
         maxWidth={isSmallScreen ? "sm" : "lg"}
       >
         <Fade delay="100">
-          <Link to="/portfolio" className={classes.link}>
+          <Link to="/guitarist" className={classes.link}>
             <Typography
               variant="h4"
               sx={{ color: theme.palette.text.black }}
